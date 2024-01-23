@@ -1,11 +1,8 @@
-def longestCommonPrefix(strs):
-        if not strs:
-            return ""
-        shortest_str = min(strs, key=len)
-        for i, char in enumerate(shortest_str):
-            for other in strs:
-                if other[i] != char:
-                    return shortest_str[:i]
-        return shortest_str
+short = "My Haley"
+long = "My name is Haley"
 
-print(longestCommonPrefix(["flower","flow","flight"]))
+for word in short:
+    result = long.split(word)
+result = [item for item in result if item]
+print(result)
+
