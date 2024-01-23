@@ -2,7 +2,6 @@
 # @lc app=leetcode id=1813 lang=python3
 #
 # [1813] Sentence Similarity III
-#
 
 # @lc code=start
 class Solution:
@@ -30,6 +29,8 @@ class Solution:
         # If words2 is empty, it means all words in sentence2 are in sentence1 in the same order
         # So, return True if words2 is empty, otherwise return False
         return not words2  
+    
+
       
 
         
