@@ -1,8 +1,5 @@
-short = "My Haley"
-long = "My name is Haley"
+result = "aacc"
+word = "ccac"
 
-for word in short:
-    result = long.split(word)
-result = [item for item in result if item]
-print(result)
+print(sorted(word))
 
